@@ -1,12 +1,13 @@
-
-
-
-void setup()
+class Flag
 {
-  size(800, 600);
-}
 
-void draw()
-{
-  background(155);
+  void setup()
+  {
+    size(800, 600);
+  }
+
+  void draw()
+  {
+    background(255);
+  }
 }
