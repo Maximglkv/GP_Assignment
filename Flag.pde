@@ -1,12 +1,47 @@
-class flag
+class Flag
 
 {
+  
   //Variables
-  public int variables
+  public int w, h, dw, dh;
+  
+  //displaying Rectangles
+  public int displayRect(w, h, dw, dh);
+  
+  //displaying Triangle
+  public int displayTri(dw,dh,dw,dh,dw,dh)
+  
+  //moving the flags across the screen
+  public w
   {
-    int h, w, dh, dw, size;
+   this.w * 2;
+   return w;
   }
-
+  
+  //multiplier for Width of rectangle to increase it
+  public dw
+  {
+   this.dw *= 1.5;
+   return this.dw;
+  }
+  
+  //multiplier for Height of rectangle to increase it
+  public dh
+  {
+   this.dh *= 1.5;
+   return this.dh;
+  }
+  
+  //if statement to control height and width
+  public void HeightAndWidthControl
+  {
+   if( dw < 200 || dw < 50)
+   {
+    dw *- 1;
+    dh *-1;
+   }
+  }
+  
   //Rectangles
   public void flagRect
   {
@@ -42,17 +77,5 @@ class flag
   }
 
 
-  //Height Scaling
-  public heightScaling
-  {
-    this.size *= dh;
-    return;
-  }
-
-  //Width Scaling
-  public WidthScaling
-  {
-    this.size *= dw;
-    return;
-  }
+  
 }
