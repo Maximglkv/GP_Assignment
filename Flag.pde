@@ -2,7 +2,7 @@ class Flag
 {
 
   //Variables
-  public int w, h, dw, dh;
+  private int w, h, dw, dh;
 
   //displaying Rectangles
   public int displayRect(w, h, dw, dh);
@@ -10,7 +10,7 @@ class Flag
   //displaying Triangle
   public int displayTri(dw, dh, dw, dh, dw, dh)
 
-    void update()
+  void update()
   {
 
     //moving the flags across the screen
@@ -44,7 +44,7 @@ class Flag
       }
     }
 
-    //Rectangles
+    //Rectangles with correct flag colors
     public void flagRect
     {
       fill(255, 0, 0);
@@ -65,7 +65,7 @@ class Flag
       fill(255, 0, 255);
       rect(120, 140, 200, 20);
     }
-    //Triangles
+    //Triangles with correct flag colors
     public void flagTriangle
     {
       fill(0);
@@ -76,6 +76,11 @@ class Flag
 
       fill(255, 255, 0);
       triangle(120, 130, 120, 70, 190, 100);
+    }
+
+    public void circle
+    {
+      ellipse(120, 140, 50, 50);
     }
   }
 }
