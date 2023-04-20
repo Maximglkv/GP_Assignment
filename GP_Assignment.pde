@@ -1,4 +1,4 @@
-class Flag
+class Flag[10] = flag[i]
 {
 
   void setup()
@@ -9,5 +9,10 @@ class Flag
   void draw()
   {
     background(255);
+    
+    if(int i = 0; i < flag.length; i++)
+    {
+     flag(); 
+    }
   }
 }
